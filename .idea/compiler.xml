@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="agri-common" />
+        <module name="agri-gateway" />
+        <module name="agri-item-service" />
+        <module name="agri-registry" />
+        <module name="agri-user" />
+        <module name="agri-item-interface" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="agri" options="" />
+      <module name="agri-common" options="-parameters" />
+      <module name="agri-gateway" options="-parameters" />
+      <module name="agri-item" options="" />
+      <module name="agri-item-interface" options="-parameters" />
+      <module name="agri-item-service" options="-parameters" />
+      <module name="agri-registry" options="-parameters" />
+      <module name="agri-user" options="-parameters" />
+    </option>
+  </component>
+</project>
